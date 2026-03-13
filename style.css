@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f1b14;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background: #13261c;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    overflow-x: auto;
+}
+
+.habits {
+    min-width: 200px;
+    background: #162d21;
+    padding: 10px;
+}
+
+.habit {
+    padding: 8px;
+    border-bottom: 1px solid #244536;
+}
+
+.tracker {
+    padding: 10px;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    /* border: 1px solid #A0D585; */
+    padding: 6px;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #00ff6a;
+    cursor: pointer;
+}
+
+
+canvas {
+    background: #13261c;
+    margin: 30px;
+}
