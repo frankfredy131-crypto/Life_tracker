@@ -1,9 +1,14 @@
 {
-  "name": "Life Game Pro",
-  "short_name": "LifeGame",
-  "start_url": "index.html",
+  "name": "Level Up – Life Tracker",
+  "short_name": "Level Up",
+  "description": "Daily habit tracker to level up your life",
+  "start_url": "/Life_tracker/",
+  "scope": "/Life_tracker/",
   "display": "standalone",
-  "background_color": "#0f1b14",
-  "theme_color": "#0f1b14",
-  "icons": []
+  "background_color": "#0d0f14",
+  "theme_color": "#0d0f14",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
 }
